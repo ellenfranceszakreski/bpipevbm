@@ -2,7 +2,7 @@
 # source populate_Input.sh
 # add subx folder in Input for each subject in subject list get subx_bpipe.nii
 
-AnalysisDir=/data/scratch/zakell/vmbbeast
+AnalysisDir=/data/scratch/zakell/bpipevbm
 
 SrcDir=/data/chamal/projects/zakell/bpipe_out
 SubjectList=$AnalysisDir/Scripts/subjects.txt
