@@ -26,6 +26,5 @@ ls -l $GithubDir
 printf "\n\nTransfer done. When ready, enter commands below:\n"
 printf "cd %s\n" "$AnalysisDir"
 printf "mv -v Github/* Scripts\n\n"
-unset GithubDir AnalysisDir
 exit 0
 ### DONE
