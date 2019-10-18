@@ -16,7 +16,7 @@ addpath(genpath(fullfile(spm('dir'),'config')));
 AnalysisDir='/data/scratch/zakell/bpipevbm'; % <-make sure this is correct
 
 jobs = {[AnalysisDir,'/Scripts/segment_job.m']};
-inputs = {[AnalysisDir,'/Input/',subx]}; % Named Directory Selector: Directory - cfg_files (subject dir)
+inputs = {{[AnalysisDir,'/Input/',subx]}}; % Named Directory Selector: Directory - cfg_files (subject dir)
 
 spm('defaults', 'PET'); % defaults same as VBM
 spm_jobman('run', jobs, inputs{:});
