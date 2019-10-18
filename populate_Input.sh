@@ -42,7 +42,7 @@ do
 		xx="39_2"
 	fi
 	# copy subject's MINC file to subject's Input folder
-	cp -v $SrcDir/"lhs"$xx".clean_and_center.n4correct.cutneckapplyautocrop.beastextract.nii" $AnalysisDir/Input/$subx
+	cp -v $SrcDir/"lhs"$xx".clean_and_center.n4correct.cutneckapplyautocrop.beastextract.mnc" $AnalysisDir/Input/$subx
 	unset xx
 	# convert copied MINC file to NIfTI file
 	mnc2nii $AnalysisDir/Input/$subx/lhs*.mnc $AnalysisDir/Input/$subx/$subx"_bpipe.nii"
