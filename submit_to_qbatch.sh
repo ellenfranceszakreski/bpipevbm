@@ -3,7 +3,7 @@
 # make sure you log in to ssh -Y zakell@cicw01
 # tip: to make job directory call ../Scripts/make_cicjobs.sh <JobName>
 
-AnalysisDir=/data/scratch/zakell/vbm #<- make sure this is correct!
+AnalysisDir=/data/scratch/zakell/bpipevbm #<- make sure this is correct!
 
 # check input
 if [ "$#" -ne 1 ]; then
